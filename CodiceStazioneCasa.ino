@@ -37,8 +37,8 @@ SSD1306Wire Display(0x3c, 500000, SDA_OLED, SCL_OLED, GEOMETRY_128_64, RST_OLED)
 // SEZIONE COLLEGAMENTO WIFI
 
 // SSID e password della rete WiFi
-char ssid[] = "Vodafone_CASACORINI";  // Nome della rete WiFi
-char pass[] = "n4mM9fP9t4MGXyc7";    // Password della rete WiFi
+char ssid[] = "IlTuoSSID";  // Nome della rete WiFi
+char pass[] = "LaTuaPassword";    // Password della rete WiFi
 
 // Funzione per configurare il WiFi
 void WifiSetup(){
